@@ -1,12 +1,12 @@
-# 💪 MERN Stack Backend with Redis Caching
+# MERN Stack Backend with Redis
 
-## 📚 Overview
+## Project Overview
 
 This project is a Node.js + Express.js backend application for managing users and products, backed by MongoDB and enhanced with Redis caching. It supports full CRUD operations and optimizes repeated fetches using cache-first logic.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 /backend
@@ -34,7 +34,7 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ---
 
-## 🔧 Features
+## Features
 
 * ✅ User Registration with unique username
 * ✅ Password encoding (base64 for demo purposes)
@@ -46,7 +46,7 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 * Node.js
 * Express.js
@@ -56,16 +56,16 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ---
 
-## 🚀 API Endpoints
+## API Endpoints
 
-### 👤 User Routes
+###  User Routes
 
 | Method | Endpoint           | Description             |
 | ------ | ------------------ | ----------------------- |
 | POST   | `/api/user`        | Create a new user       |
 | GET    | `/api/user/:user1` | Get user(s) by username |
 
-### 📦 Product Routes
+###  Product Routes
 
 | Method | Endpoint                              | Description                 |
 | ------ | ------------------------------------- | --------------------------- |
@@ -76,7 +76,7 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ---
 
-## 🧐 Redis Caching Logic
+##  Redis Caching Logic
 
 * Key pattern: `products:${userId}:${offset}:${limit}`
 * Flow:
@@ -87,7 +87,7 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 Create a `.env` file with the following:
 
@@ -99,7 +99,7 @@ PORT=5000
 
 ---
 
-## 🏃 Getting Started
+##  Getting Started
 
 ```bash
 npm install
