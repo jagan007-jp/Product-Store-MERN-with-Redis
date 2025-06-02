@@ -11,6 +11,9 @@ This project is a Node.js + Express.js backend application for managing users an
 ```
 /backend
 │
+├── config/
+│   └── db.js
+│
 ├── controllers/
 │   ├── product.controller.js
 │   └── user.controller.js
@@ -27,20 +30,26 @@ This project is a Node.js + Express.js backend application for managing users an
 │   └── redisClient.js
 │
 ├── .env
-├── server.js
-└── package.json
+└── server.js
 
 /frontend
 │
 ├── src/
 │   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── ProductCard.jsx
 │   ├── pages/
-│   ├── store/      
+│   │   ├── CreatePage.jsx
+│   │   ├── HomePage.jsx
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   ├── store/
+│   │   ├── auth.js
+│   │   └── product.js      
 │   ├── App.jsx
 │   └── main.jsx
 │
-├── index.html
-└── vite.config.js
+└── index.html
 ```
 
 ---
