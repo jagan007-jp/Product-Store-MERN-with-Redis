@@ -36,13 +36,13 @@ This project is a Node.js + Express.js backend application for managing users an
 
 ## Features
 
-* ✅ User Registration with unique username
-* ✅ Password encoding (base64 for demo purposes)
-* ✅ Add, update, delete, fetch products by user
-* ✅ Pagination support for products
-* ✅ Redis caching for read-heavy routes
-* ✅ Graceful error handling
-* ✅ Modular controller/route structure
+*  User Registration with unique username
+*  Password encoding (base64 for demo purposes)
+*  Add, update, delete, fetch products by user
+*  Pagination support for products
+*  Redis caching for read-heavy routes
+*  Graceful error handling
+*  Modular controller/route structure
 
 ---
 
