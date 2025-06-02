@@ -133,7 +133,6 @@ Make sure MongoDB and Redis are running locally or are accessible remotely.
 ### Integrations
 
 * Fetch products with pagination using backend endpoints
-* Show cached vs fresh data indicator (if needed)
 * Handle login and product creation via forms
 
 ---
