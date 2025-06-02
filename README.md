@@ -30,6 +30,18 @@ This project is a Node.js + Express.js backend application for managing users an
 ├── server.js
 └── package.json
 
+/frontend
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── store/      
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .env
+├── index.html
+└── vite.config.js
 ```
 
 ---
@@ -109,23 +121,6 @@ npm run dev
 Make sure MongoDB and Redis are running locally or are accessible remotely.
 
 ---
-
-### Suggested Structure
-
-```
-/frontend
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── store/      
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── .env
-├── index.html
-└── vite.config.js
-```
 
 ### Integrations
 
