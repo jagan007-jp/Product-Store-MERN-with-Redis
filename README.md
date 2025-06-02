@@ -39,7 +39,6 @@ This project is a Node.js + Express.js backend application for managing users an
 │   ├── App.jsx
 │   └── main.jsx
 │
-├── .env
 ├── index.html
 └── vite.config.js
 ```
