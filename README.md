@@ -29,7 +29,6 @@ This project is a Node.js + Express.js backend application for managing users an
 ├── client/
 │   └── redisClient.js
 │
-├── .env
 └── server.js
 
 /frontend
